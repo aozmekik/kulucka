@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="tr" data-type="software" data-radius="soft" data-buttons="pill" data-motion>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blokzincir: Kuluçka'daki projelerin zinciri</title>
+<meta name="description" content="Kuluçka'daki on proje bir blokzincir olarak: her proje bir blok, bloklar giriş sırasıyla zincirli ve hepsi Kongre halkasının içindeki kuluçkaya bağlı.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blokzincir: Kuluçka'daki projelerin zinciri">
+<meta property="og:description" content="Kuluçka'daki on proje bir blokzincir olarak: her proje bir blok, bloklar giriş sırasıyla zincirli ve hepsi Kongre halkasının içindeki kuluçkaya bağlı.">
+<meta property="og:image" content="share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#ffffff">
+<meta name="site-kind" content="software">
+<meta name="page-type" content="software">
+<link rel="preload" href="fonts/instrument-sans-400-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="assets/system.css">
+<link rel="stylesheet" href="assets/ui/cards.css">
+<link rel="stylesheet" href="assets/motion/motion.css">
+<link rel="stylesheet" href="assets/icons/icon.css">
+<style>
+:root {
+  --p-bg: #ffffff; --p-surface: #f4f4f4; --p-ink: #141414; --p-muted: #575757;
+  --p-accent: #c0191f; --p-accent-ink: #ffffff; --p-action: #c0191f; --p-action-ink: #ffffff;
+  --p-inv-bg: #141414; --p-inv-surface: #222222; --p-inv-ink: #ffffff; --p-inv-muted: #a3a3a3;
+  --p-inv-accent: #ffffff; --p-inv-accent-ink: #141414; --p-inv-action: #ffffff; --p-inv-action-ink: #141414;
+  --font-display: "Instrument Sans", system-ui, sans-serif;
+  --font-text: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --display-weight: 600;
+  --display-tracking: -0.03em;
+  --display-tracking-xl: -0.038em;
+  --display-stretch: 96%;
+  --ly-scale: 1.04;
+}
+</style>
+
+<link rel="stylesheet" href="site.css">
+<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+</head>
+<body class="alt hk bz ground-inverse">
+<main id="top">
+<section class="bz-tam" aria-labelledby="bz-h">
+  <header class="bz-ust">
+    <a class="bz-geri" href="projeler.html"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M9.5 3.5 5 8l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Projeler</a>
+    <a class="bz-marka" href="index.html"><span class="mark" data-mark="arc" aria-hidden="true"></span>Kuluçka</a>
+    <h1 id="bz-h">Blokzincir</h1>
+  </header>
+  <div class="bz-sahne" data-bz data-bz-boy="1900,1160" data-bz-kutu="300,181,1317,819" tabindex="0" role="application" aria-label="Blokzincir haritası. Sürükleyerek gezdirin; ok tuşları kaydırır, artı ve eksi büyütüp küçültür, sıfır sığdırır.">
+    <div class="bz-duzlem" data-bz-duzlem>
+      <div class="zincir zincir--duz" data-harita style="width: 1900px">
+      <div class="zincir__alan" style="width: 1900px; height: 1160px" role="group" aria-label="Blokzincir: ortada başlangıç bloğu, Kongre halkası ve içinde kuluçka. Çevresinde on proje, her biri bir blok; bloklar giriş sırasıyla zincirlidir ve her biri kuluçkaya iki yönlü bağlıdır. ">
+        <svg class="zincir__cizim" viewBox="0 0 1900 1160" aria-hidden="true" focusable="false"><circle class="z-halka" cx="950" cy="580" r="150"/><circle class="z-silik" cx="950" cy="580" r="156"/><path class="z-silik" d="M1106 580L1112 580M1105.4 593.6L1108.4 593.9M1103.6 607.1L1106.6 607.6M1100.7 620.4L1103.6 621.2M1096.6 633.4L1099.4 634.4M1091.4 645.9L1094.1 647.2M1085.1 658L1090.3 661M1077.8 669.5L1080.2 671.2M1069.5 680.3L1071.8 682.2M1060.3 690.3L1062.4 692.4M1050.3 699.5L1052.2 701.8M1039.5 707.8L1041.2 710.2M1028 715.1L1031 720.3M1015.9 721.4L1017.2 724.1M1003.4 726.6L1004.4 729.4M990.4 730.7L991.2 733.6M977.1 733.6L977.6 736.6M963.6 735.4L963.9 738.4M950 736L950 742M936.4 735.4L936.1 738.4M922.9 733.6L922.4 736.6M909.6 730.7L908.8 733.6M896.6 726.6L895.6 729.4M884.1 721.4L882.8 724.1M872 715.1L869 720.3M860.5 707.8L858.8 710.2M849.7 699.5L847.8 701.8M839.7 690.3L837.6 692.4M830.5 680.3L828.2 682.2M822.2 669.5L819.8 671.2M814.9 658L809.7 661M808.6 645.9L805.9 647.2M803.4 633.4L800.6 634.4M799.3 620.4L796.4 621.2M796.4 607.1L793.4 607.6M794.6 593.6L791.6 593.9M794 580L788 580M794.6 566.4L791.6 566.1M796.4 552.9L793.4 552.4M799.3 539.6L796.4 538.8M803.4 526.6L800.6 525.6M808.6 514.1L805.9 512.8M814.9 502L809.7 499M822.2 490.5L819.8 488.8M830.5 479.7L828.2 477.8M839.7 469.7L837.6 467.6M849.7 460.5L847.8 458.2M860.5 452.2L858.8 449.8M872 444.9L869 439.7M884.1 438.6L882.8 435.9M896.6 433.4L895.6 430.6M909.6 429.3L908.8 426.4M922.9 426.4L922.4 423.4M936.4 424.6L936.1 421.6M950 424L950 418M963.6 424.6L963.9 421.6M977.1 426.4L977.6 423.4M990.4 429.3L991.2 426.4M1003.4 433.4L1004.4 430.6M1015.9 438.6L1017.2 435.9M1028 444.9L1031 439.7M1039.5 452.2L1041.2 449.8M1050.3 460.5L1052.2 458.2M1060.3 469.7L1062.4 467.6M1069.5 479.7L1071.8 477.8M1077.8 490.5L1080.2 488.8M1085.1 502L1090.3 499M1091.4 514.1L1094.1 512.8M1096.6 526.6L1099.4 525.6M1100.7 539.6L1103.6 538.8M1103.6 552.9L1106.6 552.4M1105.4 566.4L1108.4 566.1"/><path class="z-ic" d="M1036 580L889.2 640.8M1010.8 640.8L864 580M950 666L889.2 519.2M889.2 640.8L950 494M864 580L1010.8 519.2M889.2 519.2L1036 580M950 494L1010.8 640.8M1010.8 519.2L950 666"/><path class="z-hatem" d="M1036 580L950 666L864 580L950 494ZM1010.8 640.8L889.2 640.8L889.2 519.2L1010.8 519.2Z"/><path class="z-tohum" d="M984 580L950 614L916 580L950 546ZM974 604L926 604L926 556L974 556Z"/><path class="z-zincir" d="M1205.9 282.9L1276.8 317M1404.4 409L1476.6 513.7M1487.3 605.7L1450.2 686.8M1400 778.8L1369.6 827M1242.5 892L1073.6 924.9M877.6 916.7L766.8 885.7M602.8 812.4L523.7 757.2M442.6 665.2L422.6 604M435.1 512L508.5 389.5"/><path class="z-zincir z-zincir--ic" d="M1205.9 282.9L1276.8 317M1404.4 409L1476.6 513.7M1487.3 605.7L1450.2 686.8M1400 778.8L1369.6 827M1242.5 892L1073.6 924.9M877.6 916.7L766.8 885.7M602.8 812.4L523.7 757.2M442.6 665.2L422.6 604M435.1 512L508.5 389.5"/><path class="z-sirada" d="M634.1 305.8L720.4 272.6"/><g class="z-iz" data-iz="kanon"><path class="z-yol" d="M1093.9 282.9L1093.9 436.1L1010.8 519.2"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M1093.9 282.9L1093.9 436.1L1010.8 519.2"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M1093.9 282.9L1093.9 436.1L1010.8 519.2"/><circle class="z-lehim" cx="1055.5" cy="474.5" r="3"/></g><g class="z-iz" data-iz="nextlangua"><path class="z-yol" d="M1274.6 405.3L1124.7 405.3L1010.8 519.2"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M1274.6 405.3L1124.7 405.3L1010.8 519.2"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M1274.6 405.3L1124.7 405.3L1010.8 519.2"/><circle class="z-lehim" cx="1054.9" cy="475.1" r="3"/></g><g class="z-iz" data-iz="boykotsuz-rota"><path class="z-yol" d="M1410.3 563.9L1052.1 563.9L1036 580"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M1410.3 563.9L1052.1 563.9L1036 580"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M1410.3 563.9L1052.1 563.9L1036 580"/><circle class="z-lehim" cx="1051.9" cy="564.1" r="3"/></g><g class="z-iz" data-iz="antisiyonizm-okulu"><path class="z-yol" d="M1331.1 694.7L1150.7 694.7L1036 580"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M1331.1 694.7L1150.7 694.7L1036 580"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M1331.1 694.7L1150.7 694.7L1036 580"/><circle class="z-lehim" cx="1089" cy="633" r="3"/></g><g class="z-iz" data-iz="you-are-not-numbers"><path class="z-yol" d="M1275.2 827L1197 827L1010.8 640.8"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M1275.2 827L1197 827L1010.8 640.8"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M1275.2 827L1197 827L1010.8 640.8"/><circle class="z-lehim" cx="1055" cy="685" r="3"/></g><g class="z-iz" data-iz="bulten-okuyucu"><path class="z-yol" d="M971.4 898L971.4 687.4L950 666"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M971.4 898L971.4 687.4L950 666"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M971.4 898L971.4 687.4L950 666"/><circle class="z-lehim" cx="971.1" cy="687.1" r="3"/></g><g class="z-iz" data-iz="ag-haritasi"><path class="z-yol" d="M715.4 812.4L717.6 812.4L889.2 640.8"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M715.4 812.4L717.6 812.4L889.2 640.8"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M715.4 812.4L717.6 812.4L889.2 640.8"/><circle class="z-lehim" cx="844.2" cy="685.8" r="3"/></g><g class="z-iz" data-iz="dava-izleme"><path class="z-yol" d="M555.7 679.6L764.4 679.6L864 580"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M555.7 679.6L764.4 679.6L864 580"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M555.7 679.6L764.4 679.6L864 580"/><circle class="z-lehim" cx="810.5" cy="633.5" r="3"/></g><g class="z-iz" data-iz="afis-arsivi"><path class="z-yol" d="M505.6 562.7L846.7 562.7L864 580"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M505.6 562.7L846.7 562.7L864 580"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M505.6 562.7L846.7 562.7L864 580"/><circle class="z-lehim" cx="846.9" cy="562.9" r="3"/></g><g class="z-iz" data-iz="basvuru-sablonlari"><path class="z-yol" d="M628.5 389.5L759.5 389.5L889.2 519.2"/><path class="z-nabiz z-nabiz--git" pathLength="100" d="M628.5 389.5L759.5 389.5L889.2 519.2"/><path class="z-nabiz z-nabiz--gel" pathLength="100" d="M628.5 389.5L759.5 389.5L889.2 519.2"/><circle class="z-lehim" cx="845.4" cy="475.4" r="3"/></g><circle class="z-uc" cx="1036" cy="580" r="3.2"/><circle class="z-uc" cx="1010.8" cy="640.8" r="3.2"/><circle class="z-uc" cx="950" cy="666" r="3.2"/><circle class="z-uc" cx="889.2" cy="640.8" r="3.2"/><circle class="z-uc" cx="864" cy="580" r="3.2"/><circle class="z-uc" cx="889.2" cy="519.2" r="3.2"/><circle class="z-uc" cx="950" cy="494" r="3.2"/><circle class="z-uc" cx="1010.8" cy="519.2" r="3.2"/></svg>
+        <span class="zincir__oz" style="left: 950px; top: 580px" aria-hidden="true"><span class="mark" data-mark="arc"></span>Kuluçka</span>
+        <a class="zincir__kongre" style="left: 843.9px; top: 473.9px" href="https://antisiyonizmkongresi.org/" target="_blank" rel="noopener">Kongre<svg viewBox="0 0 12 12" width="10" height="10" aria-hidden="true"><path d="M3 9l6-6M4.2 3H9v4.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <p class="zo" style="left: 950px; top: 752px" aria-hidden="true"><b>#00</b>başlangıç bloğu</p>
+        <ol class="zincir__bloklar">
+          <li class="zb zb--yayin" style="left: 1110px; top: 236.9px; --a: 0deg" data-blok="kanon"><button class="zb__ac" type="button" data-pk-ac="pk-kanon" aria-haspopup="dialog"><span class="zb__no">#01</span><span class="zb__ad">Kanon</span><span class="zb__alt">Medya · yayında</span><span class="zb__once" aria-hidden="true"><i>özet</i>6d04f5<i>önceki</i>kongre</span></button></li>
+          <li class="zb zb--yayin" style="left: 1372.6px; top: 363px; --a: 0deg" data-blok="nextlangua"><button class="zb__ac" type="button" data-pk-ac="pk-nextlangua" aria-haspopup="dialog"><span class="zb__no">#02</span><span class="zb__ad">NextLangua</span><span class="zb__alt">Medya · yayında</span><span class="zb__once" aria-hidden="true"><i>özet</i>7f9412<i>önceki</i>6d04f5</span></button></li>
+          <li class="zb zb--yayin" style="left: 1508.3px; top: 559.7px; --a: 0deg" data-blok="boykotsuz-rota"><button class="zb__ac" type="button" data-pk-ac="pk-boykotsuz-rota" aria-haspopup="dialog"><span class="zb__no">#03</span><span class="zb__ad">Boykotsuz Rota</span><span class="zb__alt">İktisat · yayında</span><span class="zb__once" aria-hidden="true"><i>özet</i>ffa5aa<i>önceki</i>7f9412</span></button></li>
+          <li class="zb zb--yayin" style="left: 1429.1px; top: 732.8px; --a: -1.5deg" data-blok="antisiyonizm-okulu"><button class="zb__ac" type="button" data-pk-ac="pk-antisiyonizm-okulu" aria-haspopup="dialog"><span class="zb__no">#04</span><span class="zb__ad">Antisiyonizm Okulu</span><span class="zb__alt">Aktivizm · yayında</span><span class="zb__once" aria-hidden="true"><i>özet</i>f13cae<i>önceki</i>ffa5aa</span></button></li>
+          <li class="zb zb--yapim" style="left: 1340.5px; top: 873px; --a: 1.5deg" data-blok="you-are-not-numbers"><button class="zb__ac" type="button" data-pk-ac="pk-you-are-not-numbers" aria-haspopup="dialog"><span class="zb__no">#05</span><span class="zb__ad">You Are Not Numbers</span><span class="zb__alt">Medya · yapımda</span><span class="zb__once" aria-hidden="true"><i>özet</i>03fd73<i>önceki</i>f13cae</span></button></li>
+          <li class="zb zb--yayin" style="left: 975.6px; top: 944px; --a: -1.5deg" data-blok="bulten-okuyucu"><button class="zb__ac" type="button" data-pk-ac="pk-bulten-okuyucu" aria-haspopup="dialog"><span class="zb__no">#06</span><span class="zb__ad">Bülten Okuyucu</span><span class="zb__alt">Bülten · yayında</span><span class="zb__once" aria-hidden="true"><i>özet</i>4cf445<i>önceki</i>03fd73</span></button></li>
+          <li class="zb zb--yapim" style="left: 668.8px; top: 858.4px; --a: 1.5deg" data-blok="ag-haritasi"><button class="zb__ac" type="button" data-pk-ac="pk-ag-haritasi" aria-haspopup="dialog"><span class="zb__no">#07</span><span class="zb__ad">Ağ Haritası</span><span class="zb__alt">Aktivizm · yapımda</span><span class="zb__once" aria-hidden="true"><i>özet</i>52140e<i>önceki</i>4cf445</span></button></li>
+          <li class="zb zb--fikir" style="left: 457.7px; top: 711.2px; --a: -1.5deg" data-blok="dava-izleme"><button class="zb__ac" type="button" data-pk-ac="pk-dava-izleme" aria-haspopup="dialog"><span class="zb__no">#08</span><span class="zb__ad">Dava İzleme</span><span class="zb__alt">Davalar · fikir</span><span class="zb__once" aria-hidden="true"><i>özet</i>8a67e5<i>önceki</i>52140e</span></button></li>
+          <li class="zb zb--fikir" style="left: 407.6px; top: 558px; --a: 1.5deg" data-blok="afis-arsivi"><button class="zb__ac" type="button" data-pk-ac="pk-afis-arsivi" aria-haspopup="dialog"><span class="zb__no">#09</span><span class="zb__ad">Afiş Arşivi</span><span class="zb__alt">Sanat · fikir</span><span class="zb__once" aria-hidden="true"><i>özet</i>1d60e5<i>önceki</i>8a67e5</span></button></li>
+          <li class="zb zb--fikir" style="left: 536.1px; top: 343.5px; --a: -0.5deg" data-blok="basvuru-sablonlari"><button class="zb__ac" type="button" data-pk-ac="pk-basvuru-sablonlari" aria-haspopup="dialog"><span class="zb__no">#10</span><span class="zb__ad">Başvuru Şablonları</span><span class="zb__alt">Hukuk · fikir</span><span class="zb__once" aria-hidden="true"><i>özet</i>e0f3d5<i>önceki</i>1d60e5</span></button></li>
+          <li class="zb zb--yeni" style="left: 780.2px; top: 249.6px; --a: 0deg"><a class="zb__ac" href="kulucka.html#basvur"><span class="zb__no">#11</span><span class="zb__ad">Sıradaki blok: senin projen</span></a></li>
+        </ol>
+      </div>
+    </div>
+    </div>
+    <div class="bz-arac" role="group" aria-label="Haritayı gezdir">
+      <button class="bz-dugme" type="button" data-bz-is="sol" aria-label="Sola kaydır"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M10 3.5 5.5 8l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="bz-dugme" type="button" data-bz-is="sag" aria-label="Sağa kaydır"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M6 3.5 10.5 8 6 12.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <span class="bz-ayrac" aria-hidden="true"></span>
+      <button class="bz-dugme" type="button" data-bz-is="uzak" aria-label="Küçült"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3.5 8h9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <output class="bz-oran" data-bz-oran aria-live="off">100%</output>
+      <button class="bz-dugme" type="button" data-bz-is="yakin" aria-label="Büyüt"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3.5 8h9M8 3.5v9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <span class="bz-ayrac" aria-hidden="true"></span>
+      <button class="bz-dugme bz-dugme--yazi" type="button" data-bz-is="sigdir">Sığdır</button>
+    </div>
+    <p class="bz-okuma" aria-hidden="true"><span>blok <b>10</b></span><span>son özet <b>e0f3d5</b></span><span>sıradaki <b>#11</b></span></p>
+    <ul class="bz-lejant" aria-label="Blok türleri"><li class="bz-l bz-l--yayin">Yayında <b>5</b></li><li class="bz-l">Yapımda <b>2</b></li><li class="bz-l bz-l--fikir">Ekip bekliyor <b>3</b></li></ul>
+  </div>
+  <div class="pdler">
+    <dialog class="pd ground-base" id="pk-kanon" aria-labelledby="pk-kanon-h">
+        <header class="pd__bas">
+          <span class="proje__isaret proje__isaret--logo"><img src="assets/img/projeler/kanon.png" alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-kanon-h">Kanon</h2><span class="pd__rozet">ÖNE ÇIKAN</span><p>Medya · Yayında · kanon.com.tr</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="Kanon bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#01</b><span>özet</span><b>6d04f5</b><span>önceki</span><b>kongre</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="https://kanon.com.tr" target="_blank" rel="noopener">Siteyi ziyaret et</a><a class="btn btn--secondary" href="katil.html#gonullu">Projeye dahil ol</a></div>
+          <p class="pd__metin">Kanon anti-siyonist bir internet medyasıdır. Ortadoğu, politika ve kültür üzerine canlı haber akışı, yazar görüşleri, derinlemesine araştırmalar ve çeviriler yayınlar; videolarını sosyal hesaplarından da paylaşır.</p>
+          <div class="pd__galeri"><img src="assets/img/projeler/kanon-1.webp" alt="Kanon video kapağı: Gazze&#x27;de çadırlar su altında" width="360" height="480" loading="lazy" decoding="async"><img src="assets/img/projeler/kanon-2.webp" alt="Kanon video kapağı: camiler üzerine bir haber" width="360" height="480" loading="lazy" decoding="async"><img src="assets/img/projeler/kanon-3.webp" alt="Kanon video kapağı: bir esir ailesinin haberi" width="360" height="480" loading="lazy" decoding="async"></div>
+          <div class="pd__bolum"><h3>Bağlantılar</h3><div class="pd__baglar"><a class="bag" href="https://kanon.com.tr" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"/></svg>Web sitesi</a><a class="bag" href="https://x.com/kanon_medya" target="_blank" rel="noopener"><img class="ic" src="assets/icons/x.svg" alt="" width="18" height="18" loading="lazy" decoding="async">X</a><a class="bag" href="https://www.instagram.com/kanon_medya/" target="_blank" rel="noopener"><img class="ic" src="assets/icons/instagram.svg" alt="" width="18" height="18" loading="lazy" decoding="async">Instagram</a><a class="bag" href="https://www.youtube.com/@kanonmedya" target="_blank" rel="noopener"><img class="ic" src="assets/icons/youtube.svg" alt="" width="18" height="18" loading="lazy" decoding="async">YouTube</a><a class="bag" href="https://www.tiktok.com/@kanon_medya" target="_blank" rel="noopener"><img class="ic" src="assets/icons/tiktok.svg" alt="" width="18" height="18" loading="lazy" decoding="async">TikTok</a><a class="bag" href="https://www.facebook.com/profile.php?id=61573063387943" target="_blank" rel="noopener"><img class="ic" src="assets/icons/facebook.svg" alt="" width="18" height="18" loading="lazy" decoding="async">Facebook</a></div></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Haber</li><li class="cip">Düşünce</li><li class="cip">Tercüme</li><li class="cip">Video</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+    <dialog class="pd ground-base" id="pk-nextlangua" aria-labelledby="pk-nextlangua-h">
+        <header class="pd__bas">
+          <span class="proje__isaret proje__isaret--logo"><img src="assets/img/projeler/nextlangua.png" alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-nextlangua-h">NextLangua</h2><span class="pd__rozet">ÖNE ÇIKAN</span><p>Medya · Yayında · nextlangua.com</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="NextLangua bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#02</b><span>özet</span><b>7f9412</b><span>önceki</span><b>6d04f5</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="https://nextlangua.com" target="_blank" rel="noopener">Siteyi ziyaret et</a><a class="btn btn--secondary" href="katil.html#gonullu">Projeye dahil ol</a></div>
+          <p class="pd__metin">NextLangua yapay zekâ destekli bir dil öğrenme araç kutusudur; başta Arapça. Ortak kütüphanedeki videoları özgün altyazısı ve çevirisiyle izler, kendi seçtiğin videoyu içeri aktarırsın. Aralıklı tekrar kelime kutusu, sekiz alıştırma, seviye analizi ve yapay zekâ eğitmeniyle sohbet aynı yerdedir. Arayüzü Türkçedir.</p>
+          <div class="pd__galeri"><img src="assets/img/projeler/nextlangua-1.webp" alt="NextLangua uygulamasında kütüphane: Arapça videolar ve seviyeleri" width="360" height="480" loading="lazy" decoding="async"><img src="assets/img/projeler/nextlangua-2.webp" alt="NextLangua uygulamasında yapay zekâ eğitmeniyle serbest sohbet" width="360" height="480" loading="lazy" decoding="async"></div>
+          <div class="pd__bolum"><h3>Bağlantılar</h3><div class="pd__baglar"><a class="bag" href="https://nextlangua.com" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"/></svg>Web sitesi</a><a class="bag" href="https://x.com/nextlangua" target="_blank" rel="noopener"><img class="ic" src="assets/icons/x.svg" alt="" width="18" height="18" loading="lazy" decoding="async">X</a><a class="bag" href="https://instagram.com/nextlangua" target="_blank" rel="noopener"><img class="ic" src="assets/icons/instagram.svg" alt="" width="18" height="18" loading="lazy" decoding="async">Instagram</a><a class="bag" href="https://www.youtube.com/@NextLangua" target="_blank" rel="noopener"><img class="ic" src="assets/icons/youtube.svg" alt="" width="18" height="18" loading="lazy" decoding="async">YouTube</a><a class="bag" href="https://tiktok.com/@nextlangua" target="_blank" rel="noopener"><img class="ic" src="assets/icons/tiktok.svg" alt="" width="18" height="18" loading="lazy" decoding="async">TikTok</a><a class="bag" href="https://apps.apple.com/app/nextlangua/id6757635518" target="_blank" rel="noopener"><img class="ic" src="assets/icons/app-store.svg" alt="" width="18" height="18" loading="lazy" decoding="async">App Store</a><a class="bag" href="https://play.google.com/store/apps/details?id=com.nextlangua.app" target="_blank" rel="noopener"><img class="ic" src="assets/icons/google-play.svg" alt="" width="18" height="18" loading="lazy" decoding="async">Google Play</a></div></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Arapça</li><li class="cip">Dil öğrenimi</li><li class="cip">Yapay zekâ</li><li class="cip">Mobil uygulama</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+    <dialog class="pd ground-base" id="pk-boykotsuz-rota" aria-labelledby="pk-boykotsuz-rota-h">
+        <header class="pd__bas">
+          <span class="proje__isaret proje__isaret--logo"><img src="assets/img/projeler/boykotsuz-rota.png" alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-boykotsuz-rota-h">Boykotsuz Rota</h2><span class="pd__rozet">ÖNE ÇIKAN</span><p>İktisat · Yayında · boykotsuzrota.com</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="Boykotsuz Rota bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#03</b><span>özet</span><b>ffa5aa</b><span>önceki</span><b>7f9412</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="https://boykotsuzrota.com" target="_blank" rel="noopener">Siteyi ziyaret et</a><a class="btn btn--secondary" href="katil.html#gonullu">Projeye dahil ol</a></div>
+          <p class="pd__metin">Boykotsuz Rota, İsrail boykot listesindeki ürünleri satmayan işletmeleri haritada gösterir: marketler, restoranlar, kafeler ve fırınlar, giyim mağazaları, akaryakıt istasyonları. İşletmeler kategoriye ve şehre göre aranır.</p>
+          
+          <div class="pd__bolum"><h3>Bağlantılar</h3><div class="pd__baglar"><a class="bag" href="https://boykotsuzrota.com" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"/></svg>Web sitesi</a></div></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Boykot</li><li class="cip">Harita</li><li class="cip">İşletmeler</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+    <dialog class="pd ground-base" id="pk-antisiyonizm-okulu" aria-labelledby="pk-antisiyonizm-okulu-h">
+        <header class="pd__bas">
+          <span class="proje__isaret"><img class="ikon" src="assets/icons/ui-megaphone.svg" alt="" width="24" height="24" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-antisiyonizm-okulu-h">Antisiyonizm Okulu</h2><span class="pd__rozet">ÖNE ÇIKAN</span><p>Aktivizm · Yayında · instagram.com/uegorgtr</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="Antisiyonizm Okulu bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#04</b><span>özet</span><b>f13cae</b><span>önceki</span><b>ffa5aa</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="https://www.instagram.com/uegorgtr/" target="_blank" rel="noopener">Instagram'da gör</a><a class="btn btn--secondary" href="katil.html#gonullu">Projeye dahil ol</a></div>
+          <p class="pd__metin">Antisiyonizm Okulu, siyonizmin ideolojik kökenlerini, tarihsel ortaya çıkışını, küresel etkilerini ve bugünkü sonuçlarını ele alan bir eğitim programıdır. Dersleri alanında yetkin 14 eğitmen ve akademisyen verir. Programı UEG yürütür; başvuru UEG&#x27;nin Instagram profilindeki bağlantıdan yapılır.</p>
+          
+          <div class="pd__bolum"><h3>Bağlantılar</h3><div class="pd__baglar"><a class="bag" href="https://www.instagram.com/uegorgtr/" target="_blank" rel="noopener"><img class="ic" src="assets/icons/instagram.svg" alt="" width="18" height="18" loading="lazy" decoding="async">Instagram</a><a class="bag" href="https://www.instagram.com/uegorgtr/p/DZ7IQliiBAX/" target="_blank" rel="noopener"><img class="ic" src="assets/icons/instagram.svg" alt="" width="18" height="18" loading="lazy" decoding="async">Duyuru</a></div></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Eğitim</li><li class="cip">Dersler</li><li class="cip">UEG</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+    <dialog class="pd ground-base" id="pk-you-are-not-numbers" aria-labelledby="pk-you-are-not-numbers-h">
+        <header class="pd__bas">
+          <span class="proje__isaret"><img class="ikon" src="assets/icons/ui-newspaper.svg" alt="" width="24" height="24" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-you-are-not-numbers-h">You Are Not Numbers</h2><p>Medya · Yapımda · P-05</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="You Are Not Numbers bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#05</b><span>özet</span><b>03fd73</b><span>önceki</span><b>f13cae</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="mailto:antisiyonizmkongresi@gmail.com?subject=You%20Are%20Not%20Numbers%20ekibine%20kat%C4%B1l%C4%B1m">Projeye dahil ol</a></div>
+          <p class="pd__metin">You Are Not Numbers, Gazzeli gençlerin kendi hikâyelerini yazdığı We Are Not Numbers&#x27;a (wearenotnumbers.org) bir cevaptır: Türkiye&#x27;deki gençlerin ve öğrencilerin yazdığı yazıları bir araya getirir. İletişim ve anlatı alanında çalışır; youarenotnumbers.org adresinde yayınlanacak.</p>
+          
+          <div class="pd__bolum"><h3>Ekip</h3><p class="pd__ekip">Türkiye'den gençler ve öğrenciler çalışıyor.</p></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Yazı</li><li class="cip">Anlatı</li><li class="cip">Gençlik</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+    <dialog class="pd ground-base" id="pk-bulten-okuyucu" aria-labelledby="pk-bulten-okuyucu-h">
+        <header class="pd__bas">
+          <span class="proje__isaret"><img class="ikon" src="assets/icons/ui-book-open.svg" alt="" width="24" height="24" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-bulten-okuyucu-h">Bülten Okuyucu</h2><p>Bülten · Yayında · P-06</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="Bülten Okuyucu bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#06</b><span>özet</span><b>4cf445</b><span>önceki</span><b>03fd73</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="mailto:antisiyonizmkongresi@gmail.com?subject=B%C3%BClten%20Okuyucu%20ekibine%20kat%C4%B1l%C4%B1m">Projeye dahil ol</a></div>
+          <p class="pd__metin">Kongre bültenini telefonda rahat okunur hale getiren hafif okuyucu. Kongre&#x27;nin kendi yayını için yapıldı.</p>
+          
+          <div class="pd__bolum"><h3>Ekip</h3><p class="pd__ekip">2 kişi çalışıyor.</p></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Okuyucu</li><li class="cip">Açık kaynak</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+    <dialog class="pd ground-base" id="pk-ag-haritasi" aria-labelledby="pk-ag-haritasi-h">
+        <header class="pd__bas">
+          <span class="proje__isaret"><img class="ikon" src="assets/icons/ui-megaphone.svg" alt="" width="24" height="24" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-ag-haritasi-h">Ağ Haritası</h2><p>Aktivizm · Yapımda · P-07</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="Ağ Haritası bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#07</b><span>özet</span><b>52140e</b><span>önceki</span><b>4cf445</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="mailto:antisiyonizmkongresi@gmail.com?subject=A%C4%9F%20Haritas%C4%B1%20ekibine%20kat%C4%B1l%C4%B1m">Projeye dahil ol</a></div>
+          <p class="pd__metin">Filistin için çalışan kuruluşları alanına ve şehrine göre gösteren açık veri seti ve harita.</p>
+          
+          <div class="pd__bolum"><h3>Ekip</h3><p class="pd__ekip">4 kişi çalışıyor.</p></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Açık veri</li><li class="cip">Harita</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+    <dialog class="pd ground-base" id="pk-dava-izleme" aria-labelledby="pk-dava-izleme-h">
+        <header class="pd__bas">
+          <span class="proje__isaret"><img class="ikon" src="assets/icons/ui-gavel.svg" alt="" width="24" height="24" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-dava-izleme-h">Dava İzleme</h2><p>Davalar · Fikir · P-08</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="Dava İzleme bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#08</b><span>özet</span><b>8a67e5</b><span>önceki</span><b>52140e</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="mailto:antisiyonizmkongresi@gmail.com?subject=Dava%20%C4%B0zleme%20ekibine%20kat%C4%B1l%C4%B1m">Projeye dahil ol</a></div>
+          <p class="pd__metin">Siyonizmle ilgili davaların duruşma tarihlerini ve belgelerini bir zaman çizelgesinde toplar.</p>
+          
+          <div class="pd__bolum"><h3>Ekip</h3><p class="pd__ekip">2 kişi çalışıyor.</p></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Zaman çizelgesi</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+    <dialog class="pd ground-base" id="pk-afis-arsivi" aria-labelledby="pk-afis-arsivi-h">
+        <header class="pd__bas">
+          <span class="proje__isaret"><img class="ikon" src="assets/icons/ui-palette.svg" alt="" width="24" height="24" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-afis-arsivi-h">Afiş Arşivi</h2><p>Sanat · Fikir · P-09</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="Afiş Arşivi bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#09</b><span>özet</span><b>1d60e5</b><span>önceki</span><b>8a67e5</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="mailto:antisiyonizmkongresi@gmail.com?subject=Afi%C5%9F%20Ar%C5%9Fivi%20ekibine%20kat%C4%B1l%C4%B1m">Projeye dahil ol</a></div>
+          <p class="pd__metin">Filistin için yapılmış afişleri serbest lisansla ve baskıya uygun çözünürlükte sunar.</p>
+          
+          <div class="pd__bolum"><h3>Ekip</h3><p class="pd__ekip">2 kişi çalışıyor.</p></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Arşiv</li><li class="cip">Afiş</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+    <dialog class="pd ground-base" id="pk-basvuru-sablonlari" aria-labelledby="pk-basvuru-sablonlari-h">
+        <header class="pd__bas">
+          <span class="proje__isaret"><img class="ikon" src="assets/icons/ui-scale.svg" alt="" width="24" height="24" loading="lazy" decoding="async"></span>
+          <div class="pd__ad"><h2 id="pk-basvuru-sablonlari-h">Başvuru Şablonları</h2><p>Hukuk · Fikir · P-10</p></div>
+          <div class="pd__araclar">
+            <button class="pd__arac" type="button" data-pd-kopya aria-label="Başvuru Şablonları bağlantısını kopyala"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+            <button class="pd__arac" type="button" data-pd-kapat aria-label="Pencereyi kapat"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </div>
+        </header>
+        <p class="pd__blok" aria-hidden="true"><span>blok</span><b>#10</b><span>özet</span><b>e0f3d5</b><span>önceki</span><b>1d60e5</b></p>
+        <div class="pd__govde">
+          <div class="btn-row"><a class="btn btn--primary" href="mailto:antisiyonizmkongresi@gmail.com?subject=Ba%C5%9Fvuru%20%C5%9Eablonlar%C4%B1%20ekibine%20kat%C4%B1l%C4%B1m">Projeye dahil ol</a></div>
+          <p class="pd__metin">Suç duyurusu ve bilgi edinme başvurusu için adım adım rehber ve doldurulabilir şablonlar.</p>
+          
+          <div class="pd__bolum"><h3>Ekip</h3><p class="pd__ekip">3 kişi çalışıyor.</p></div>
+          <div class="pd__bolum"><h3>Etiketler</h3><ul class="cipler"><li class="cip">Rehber</li><li class="cip">Şablon</li></ul></div>
+        </div>
+        <footer class="pd__son"><span>Son güncelleme 13.11.2026</span><button class="link" type="button" data-pd-kapat>Kapat</button></footer>
+      </dialog>
+  </div>
+  <script type="module" src="blokzincir.js"></script>
+  <script type="module" src="pencere.js"></script>
+</section>
+</main>
+<script type="module" src="siber.js"></script>
+</body>
+</html>
